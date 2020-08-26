@@ -17,7 +17,7 @@ const Grid = () => {
 
   return (
     <div className="grid-div">
-      {grid.map((r) => r.map((c) => <div className="cells"></div>))}
+      {grid.map((r, x) => r.map((c, y) => <div className="cells"></div>))}
     </div>
   );
 };
